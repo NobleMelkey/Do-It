@@ -1,0 +1,107 @@
+/* login.css */
+
+.app__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+.center-title {
+  color: rgb(27, 172, 19);
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+#sign_in {
+  margin-bottom: 30px;
+}
+.your-image-class {
+  max-width: 100%; /* Ensures the image doesn't exceed its container width */
+  max-height: 100%; /* Ensures the image doesn't exceed its container height */
+  width: auto; /* Allows the image to scale with the container width */
+  height: auto; /* Allows the image to scale with the container height */
+  border-radius: 8px;
+ 
+}
+.Enterotp {
+  color: rgb(27, 172, 19);
+  font-size: 28px;
+}
+
+/* Customize the appearance of the TextField and button */
+
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.butt {
+  background-color: rgb(27, 172, 19);
+  color: #0c0c0c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.butt:hover {
+  background-color: #388f02;
+}
+
+/* Add some styling to the main heading */
+
+h2 {
+  color: rgb(27, 172, 19);
+  font-size: 24px;
+}
+
+/* Customize the app container styling */
+
+.app__container {
+  background-color: #f9e1e1;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+/* Center the app container on the screen */
+
+/* login.css */
+
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Your preferred font', sans-serif;
+  /* Other styles */
+}
+
+
+/* Add some padding and margin for better spacing */
+
+button {
+  margin-top: 10px;
+}
+
+/* Center the recaptcha */
+
+#recaptcha {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Center the logo */
+
+.app__container center {
+  margin-bottom: 20px;
+}

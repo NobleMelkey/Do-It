@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5406feff.css",
+    "main.js": "/static/js/main.69e33c7d.js",
+    "static/js/787.88e18ed9.chunk.js": "/static/js/787.88e18ed9.chunk.js",
+    "static/media/Iphone Wallpaper Nebula.jpg": "/static/media/Iphone Wallpaper Nebula.379fad0fe5cc7a880b07.jpg",
+    "index.html": "/index.html",
+    "main.5406feff.css.map": "/static/css/main.5406feff.css.map",
+    "main.69e33c7d.js.map": "/static/js/main.69e33c7d.js.map",
+    "787.88e18ed9.chunk.js.map": "/static/js/787.88e18ed9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5406feff.css",
+    "static/js/main.69e33c7d.js"
+  ]
+}

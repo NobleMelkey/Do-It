@@ -1,0 +1,119 @@
+
+:root {
+    --background-color-light: #f8f9fa;
+    --background-color-dark: #121212;
+    --text-color-light: #333;
+    --text-color-dark: #e0e0e0;
+    --sidebar-bg-light: #ffffff;
+    --sidebar-bg-dark: #1e1e1e;
+    --chart-bg-light: #f0f4f8;
+    --chart-bg-dark: #2c2c2c;
+  }
+  
+  [data-theme='light'] {
+    --background-color: var(--background-color-light);
+    --text-color: var(--text-color-light);
+    --sidebar-bg: var(--sidebar-bg-light);
+    --chart-bg: var(--chart-bg-light);
+  }
+  
+  [data-theme='dark'] {
+    --background-color: var(--background-color-dark);
+    --text-color: var(--text-color-dark);
+    --sidebar-bg: var(--sidebar-bg-dark);
+    --chart-bg: var(--chart-bg-dark);
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: var(--sidebar-bg);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    margin: 10px 0;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav ul li a:hover,
+  .nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #3e6b2e;
+  }
+  
+  .tasks-summary {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .chart {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: var(--chart-bg);
+    border-radius: 50%;
+  }
+  
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#0e6c12 0% 50%, #f0f4f8 50% 100%);
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  .button{
+    color: #0e6c12;
+  }
